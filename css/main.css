@@ -6,27 +6,28 @@ bbody {
 
 .header img {
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 6vh;
+  height: 6vh;
+  margin-left: 1vh
 }
 
 .header h1 {
   color: black;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 30px;
+  font-family: 'Gaegu', sans-serif;
+  font-size: 40px;
   font-weight: 100;
   line-height: 60px;
-  margin: 0;
-  padding-left: 60px;
+  margin-left: 10vh;
   position: relative;
 }
 
 h3 {
   color: black;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Gaegu', sans-serif;
   font-size: 20px;
   line-height: 30px;
   padding-top: 0px;
+  margin-left: 1vh;
 }
 
 h4 {
@@ -37,14 +38,11 @@ h4 {
 }
 
 .category {
-  padding: 75px;
-  text-align: center;
-  margin: 0 auto;
-  color: black;
-  border-bottom: 2px solid #000;
-
-  text-decoration: none;
+  width: 46vw;
+  height: 40vh;
   transition: 0.65s;
+  float: left;
+  margin: 1vh;
 }
 
 .category a {
@@ -54,4 +52,18 @@ h4 {
 
 .category h4 {
   color: black;
+}
+
+#writingDiv {
+  background: #CAB;
+  margin-right: 5vh;
+}
+
+#projectsDiv {
+  background: #ABC;
+}
+
+#aboutDiv {
+  background: #BAC;
+  margin-top: 5vh;
 }
